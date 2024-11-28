@@ -14,7 +14,7 @@ mongoose
   .catch((error) => console.error('Error connecting to MongoDB:', error));
 
 // Cấu hình cổng và khởi động server
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
