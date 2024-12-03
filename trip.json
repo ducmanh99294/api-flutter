@@ -1,0 +1,21 @@
+[
+{"name": "ST22A", 
+"time": "07:00:00",
+"day": "2",
+ "price": "800", 
+ "avatar": "https://example.com/images/hoian.jpg}",
+},
+
+{"name": "Phú Quốc thiên đường",
+"time": "2024-12-01 07:00:00",
+"day":" 4",
+  "price": "1700",
+  "avatar":  "https://example.com/images/phuquoc.jpg"
+},
+
+{"name": "Cần Thơ miệt vườn",
+"time": "2024-11-10 07:00:00", 
+ "day":"2", 
+ "price": "700", 
+ "avatar": "https://example.com/images/cantho.jpg"}
+]

@@ -1,4 +1,8 @@
 const userRoutes = require('./routes/userRoutes');
+const tripRoutes = require('./routes/tripRoutes');
+
+
+// Import các cấu hình
 const express = require('express');
 const { default: mongoose } = require('mongoose');
 const path  = require('path');  
@@ -7,7 +11,9 @@ app.use(express.json());
 
 app.use('/resource/images', express.static(path.join(__dirname,"resource", 'images')));
 app.use('/api/users', userRoutes); 
+app.use('/',tripRoutes);
 
+// Kết nối đến MongoDB
 mongoose 
   .connect("mongodb+srv://nguyenducmanh1809:manh1234@cluster0.1ya4y.mongodb.net/demo?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log('Connected to MongoDB'))
